@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Forever 💖</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<audio id="bgMusic" loop>
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="heartbeat">
+  <source src="https://assets.mixkit.co/sfx/preview/mixkit-heart-beat-493.mp3">
+</audio>
+
+<button id="musicBtn" class="music">🎵</button>
+
+<!-- Slideshow Section -->
+<section id="slideshow" class="screen active">
+  <h2 class="slide-caption" id="caption"></h2>
+  <img id="slideImage" class="slide-img">
+</section>
+
+<!-- Premium Proposal Section -->
+<section id="proposal" class="screen">
+  <div class="sparkles"></div>
+
+  <div class="proposal-card">
+    <div class="ring-3d">
+      <div class="band"></div>
+      <div class="diamond"></div>
+    </div>
+
+    <h2 class="proposal-text">
+      Will You Stay With Me Forever? 💍✨
+    </h2>
+
+    <div class="proposal-buttons">
+      <button id="yesBtn" class="yes">Yes 💖</button>
+      <button id="noBtn" class="no">No 🙈</button>
+    </div>
+  </div>
+</section>
+
+<canvas id="confetti"></canvas>
+
+<script src="script.js"></script>
+</body>
+</html>
